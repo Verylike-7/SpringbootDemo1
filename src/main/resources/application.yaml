@@ -1,0 +1,22 @@
+
+server:
+  port:
+   8081  # 应用服务 WEB 访问端口
+  spring:
+    mvc:
+      servlet:
+        load-on-startup: 1 # 修改Servlet随tomcat一起初始化
+        path: / # 修改DispatcherServlet映射路径
+hunan.swjd:
+  className: 软件19375 # 班级名称
+  roomNum: 504   # 班级的教室编号
+  user: #用户
+    name: 张三
+    age: 18
+    boys:
+      -李四
+      -王五
+      -赵六
+      -七七
+
+
